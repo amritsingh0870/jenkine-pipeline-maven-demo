@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat "mvn -version"
                 bat "mvn clean"
-                bat "java App"
+                bat "javac App.java java App"
             }
         }
     }
